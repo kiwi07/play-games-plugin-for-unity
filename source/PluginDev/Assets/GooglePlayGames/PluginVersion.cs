@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2013 Google Inc.
+ * Copyright (C) 2014 Google Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,11 +18,18 @@ using System;
 
 namespace GooglePlayGames {
     public class PluginVersion {
-        public const int VersionInt = 0x0801;
-        public const string VersionString = "0.8.01";
         
-        // minimum version of the Google Play Services library project
-        public const long MinGmsCoreVersionCode = 4234030;
+        // older versions, used when upgrading to other versions
+        public const string VersionKeyCPP = "00911";
+        public const string VersionKeyU5 = "00915";
+        
+        public const int VersionInt = 0x0915;
+        public const string VersionString = "0.9.15";
+        public const string VersionKey = VersionKeyU5;
+
+        // only needed to upgrade to 00915
+        public const int MinGmsCoreVersionCode = 0;
+        
     }
 }
 

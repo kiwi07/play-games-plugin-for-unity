@@ -1,5 +1,5 @@
 # Samples
-_Copyright (c) 2013 Google Inc. All rights reserved._
+_Copyright (c) 2014 Google Inc. All rights reserved._
 
 These are sample games that use the Google Play Games plugin for Unity.
 
@@ -9,6 +9,20 @@ with Google Play Games.
 
 **Cubic Pilot** is a complete game that demonstrates how to use the plugin to implement sign in,
 achievements, leaderboards and cloud save.
+
+**Cubic Pilot_4.6** is a complete game that demonstrates how to use the plugin to implement sign in,
+achievements, leaderboards and cloud save. This sample uses features from **Unity 4.6** for targeting different resolutions and orientations, 
+and external controllers and gamepads such as used with the Nexus Player. Warning: **_You must open this sample in
+Unity 4.6 or greater_**.
+
+**Tic Tac Toe** is a complete game that demonstrates how to use the plugin to implement turn-based multiplayer.
+
+**Quiz Racer** is a complete game that demonstrates how to use the plugin to implement real-time multiplayer.
+
+**Quiz Racer_4.6** is a complete game that demonstrates how to use the plugin to implement
+real-time multiplayer using **Unity 4.6** for targeting different resolutions and orientations, 
+and external controllers and gamepads such as used with the Nexus Player. Warning: **_You must open this sample in
+Unity 4.6 or greater_**.
 
 Note: this text assumes you have already read and are familiar with the
 contents of the [Getting Started Guide](https://github.com/playgameservices/play-games-plugin-for-unity/blob/master/README.md)
@@ -25,7 +39,7 @@ More information about this can be found in the **Getting Started Guide**.
 
 ## Configure Achievements and the Leaderboard
 
-For the **Minimal** sample, no achievements or leaderboards are necessary.
+For the **Minimal**, **QuizRacer** and **TicTacToe** samples, no achievements or leaderboards are necessary.
 
 For the **Cubic Pilot** sample, you must create the necessary achievements and leaderboards
 for this game. To do this, open the **Assets/GameLogic/GameIds.cs** file
@@ -52,6 +66,11 @@ Settings** to set up the game for iOS.
 
 In each of those dialogs, enter the corresponding configuration values as
 set up in the Developer Console.
+
+## Import the packaged asset containing the sample
+
+Each sample is packaged as a Unity package.  This package should be imported into your project, and the 
+scenes selected in the build dialog.
 
 ## Build and Run
 
